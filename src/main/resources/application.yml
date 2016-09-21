@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: order-service
+  datasource:
+      driverClassName: org.postgresql.Driver
+      url: jdbc:postgresql://db:5432/postgres
+      username: postgres
+      maximumPoolSize: 3
+      autoCommit: true
+      registerMbeans: true
+      poolName: dockerdemopool
+      prepStmtCacheSize: 250
+      prepStmtCacheSqlLimit: 2048
+      useServerPrepStmts: true
+      allowPoolSuspension: true
+
+flyway:
+  enabled: true
+
+server:
+  port:
+    9092
