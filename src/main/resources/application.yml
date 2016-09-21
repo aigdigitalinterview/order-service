@@ -5,6 +5,7 @@ spring:
       driverClassName: org.postgresql.Driver
       url: jdbc:postgresql://ec2-52-35-173-156.us-west-2.compute.amazonaws.com:5432/postgres
       username: postgres
+      password: interview2016
       maximumPoolSize: 3
       autoCommit: true
       registerMbeans: true
